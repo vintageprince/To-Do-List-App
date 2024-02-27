@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		722AFD452B8E073100770DC9 /* TLButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722AFD442B8E073100770DC9 /* TLButtonView.swift */; };
 		7269C0322B8D102F00CC808E /* ToDoListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269C0312B8D102F00CC808E /* ToDoListApp.swift */; };
 		7269C0342B8D102F00CC808E /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269C0332B8D102F00CC808E /* MainView.swift */; };
 		7269C0362B8D103100CC808E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7269C0352B8D103100CC808E /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		722AFD442B8E073100770DC9 /* TLButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButtonView.swift; sourceTree = "<group>"; };
 		7269C02E2B8D102F00CC808E /* ToDoList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ToDoList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7269C0312B8D102F00CC808E /* ToDoListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListApp.swift; sourceTree = "<group>"; };
 		7269C0332B8D102F00CC808E /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 				7269C05A2B8D1C5100CC808E /* ToDoListItemView.swift */,
 				7269C0582B8D1BD800CC808E /* RegisterView.swift */,
 				7269C06E2B8DDC9F00CC808E /* HeaderView.swift */,
+				722AFD442B8E073100770DC9 /* TLButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -247,6 +250,7 @@
 				7269C06D2B8D1D9400CC808E /* RegisterViewViewModel.swift in Sources */,
 				7269C06B2B8D1D8400CC808E /* ToDoListItemViewViewModel.swift in Sources */,
 				7269C0612B8D1D1C00CC808E /* MainViewViewModel.swift in Sources */,
+				722AFD452B8E073100770DC9 /* TLButtonView.swift in Sources */,
 				7269C0532B8D1B6B00CC808E /* ToDoListView.swift in Sources */,
 				7269C0592B8D1BD800CC808E /* RegisterView.swift in Sources */,
 				7269C0632B8D1D2E00CC808E /* ProfileViewViewModel.swift in Sources */,
