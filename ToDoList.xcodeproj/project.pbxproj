@@ -149,9 +149,9 @@
 			children = (
 				7269C0602B8D1D1C00CC808E /* MainViewViewModel.swift */,
 				7269C0622B8D1D2E00CC808E /* ProfileViewViewModel.swift */,
-				7269C0642B8D1D4300CC808E /* ToDoListViewViewModel.swift */,
 				7269C0662B8D1D5600CC808E /* NewItemViewViewModel.swift */,
 				7269C0682B8D1D6C00CC808E /* LoginViewViewModel.swift */,
+				7269C0642B8D1D4300CC808E /* ToDoListViewViewModel.swift */,
 				7269C06A2B8D1D8400CC808E /* ToDoListItemViewViewModel.swift */,
 				7269C06C2B8D1D9400CC808E /* RegisterViewViewModel.swift */,
 			);
