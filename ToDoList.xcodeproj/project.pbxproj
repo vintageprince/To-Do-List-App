@@ -37,6 +37,7 @@
 		7269C06B2B8D1D8400CC808E /* ToDoListItemViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269C06A2B8D1D8400CC808E /* ToDoListItemViewViewModel.swift */; };
 		7269C06D2B8D1D9400CC808E /* RegisterViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269C06C2B8D1D9400CC808E /* RegisterViewViewModel.swift */; };
 		7269C06F2B8DDC9F00CC808E /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7269C06E2B8DDC9F00CC808E /* HeaderView.swift */; };
+		7270F0E92B8F295E0002ABF7 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7270F0E82B8F295E0002ABF7 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -78,6 +79,7 @@
 				7269C0492B8D12A400CC808E /* FirebaseAppCheck in Frameworks */,
 				7269C0472B8D12A400CC808E /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
 				722AFD4A2B8E2AEE00770DC9 /* FirebaseFirestore in Frameworks */,
+				7270F0E92B8F295E0002ABF7 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -134,9 +136,9 @@
 				7269C0332B8D102F00CC808E /* MainView.swift */,
 				7269C0502B8D1B3A00CC808E /* ProfileView.swift */,
 				7269C0522B8D1B6B00CC808E /* ToDoListView.swift */,
+				7269C05A2B8D1C5100CC808E /* ToDoListItemView.swift */,
 				7269C0542B8D1B9A00CC808E /* NewItemView.swift */,
 				7269C0562B8D1BBC00CC808E /* LoginView.swift */,
-				7269C05A2B8D1C5100CC808E /* ToDoListItemView.swift */,
 				7269C0582B8D1BD800CC808E /* RegisterView.swift */,
 				7269C06E2B8DDC9F00CC808E /* HeaderView.swift */,
 				722AFD442B8E073100770DC9 /* TLButtonView.swift */,
@@ -202,6 +204,7 @@
 				7269C0482B8D12A400CC808E /* FirebaseAppCheck */,
 				722AFD472B8E1FBC00770DC9 /* FirebaseAuth */,
 				722AFD492B8E2AEE00770DC9 /* FirebaseFirestore */,
+				7270F0E82B8F295E0002ABF7 /* FirebaseFirestoreSwift */,
 			);
 			productName = ToDoList;
 			productReference = 7269C02E2B8D102F00CC808E /* ToDoList.app */;
@@ -533,6 +536,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 7269C03F2B8D12A400CC808E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
 			productName = FirebaseAppCheck;
+		};
+		7270F0E82B8F295E0002ABF7 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7269C03F2B8D12A400CC808E /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
